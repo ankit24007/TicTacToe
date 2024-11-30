@@ -5,6 +5,13 @@ import strategies.winningstrategies.WinningStrategy;
 import java.util.List;
 
 public class Game {
+    private String name;
+    public Game(String name) {
+        this.name = name;
+    }
+    public void displayInfo() {
+        System.out.println("Game name : " + name);
+    }
     private List<Player> players;
     private Board board;
     private List<Move> moves;
