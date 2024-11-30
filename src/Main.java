@@ -15,7 +15,6 @@ public class Main {
 //        }
 
         Game game = new Game("test game jjk");
-
         game.displayInfo();
     }
 }
